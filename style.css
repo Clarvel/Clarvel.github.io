@@ -7,7 +7,6 @@ html,body{
 #header {
 	background-color: black;
 	color: white;
-	text-align: center;
 }
 #content{
 }
@@ -28,6 +27,7 @@ html,body{
 img#header_img{
 	width:125px;
 	height:125px;
+	float:left;
 }
 table#header_table{
 	margin-left: auto;
@@ -39,4 +39,7 @@ table#header_table{
 
 .foot-pad{
 	padding-bottom: 30px;
+}
+.tab-content{
+	padding:15px;
 }
